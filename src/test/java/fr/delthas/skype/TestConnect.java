@@ -7,7 +7,7 @@ public class TestConnect {
 
   // @Test (Disable it until a special test account is created)
   public void testConnect() {
-    Skype skype = new Skype("username", "password");
+    Skype skype = new Skype("automattestowy333@gmail.com", "POIlkjmnb123");
     try {
       skype.connect();
     } catch (Exception e) {
